@@ -9,3 +9,6 @@
 
 #captura_3
 ![alt text](image-2.png)
+
+#captura_4
+![alt text](image-3.png)

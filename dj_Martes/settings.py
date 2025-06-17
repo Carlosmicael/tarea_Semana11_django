@@ -127,7 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 JAZZMIN_UI_TWEAKS = {
-    "theme": "slate",
+    "theme": "darkly",
 }
 
 JAZZMIN_SETTINGS = {
@@ -141,10 +141,45 @@ JAZZMIN_SETTINGS = {
     "changeform_format": "horizontal_tabs",  
 
     "topmenu_links": [
-        {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
-        {"name": "Documentation", "url": "https://docs.djangoproject.com/en/4.2/", "new_window": True},
-        {"name": "GitHub", "url": "https://github.com/farridav/django-jazzmin", "new_window": True},
+        {
+            "name": "Dashboard",
+            "url": "admin:index",
+            "permissions": ["auth.view_user"],
+            "icon": "fas fa-tachometer-alt",
+            "new_window": False,
+        },
+        {
+            "name": "Documentation",
+            "url": "https://docs.djangoproject.com/en/4.2/",
+            "icon": "fas fa-book",
+            "new_window": True,
+        },
+        {
+            "name": "API Reference",
+            "url": "https://www.django-rest-framework.org/api-guide/",
+            "icon": "fas fa-code",
+            "new_window": True,
+        },
+        {
+            "name": "GitHub Repo",
+            "url": "https://github.com/farridav/django-jazzmin",
+            "icon": "fab fa-github",
+            "new_window": True,
+        },
+        {
+            "name": "Support",
+            "url": "https://github.com/farridav/django-jazzmin/issues",
+            "icon": "fas fa-life-ring",
+            "new_window": True,
+        },
+        {
+            "name": "Company Site",
+            "url": "https://www.yourcompany.com",
+            "icon": "fas fa-globe",
+            "new_window": True,
+        },
     ],
+
 
     "icons": {
         "auth": "fas fa-users-cog",
