@@ -3,3 +3,6 @@
 
 #Captura_1
 ![alt text](image.png)
+
+#captura_2
+![alt text](image-1.png)

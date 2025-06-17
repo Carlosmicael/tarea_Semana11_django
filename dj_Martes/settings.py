@@ -126,7 +126,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-
+JAZZMIN_UI_TWEAKS = {
+    "theme": "darkly",
+}
 
 JAZZMIN_SETTINGS = {
     "site_title": "Library Admin",
@@ -136,27 +138,24 @@ JAZZMIN_SETTINGS = {
     "copyright": "Acme Library",
     "show_sidebar": True,
     "navigation_expanded": True,
-    "changeform_format": "horizontal_tabs",  # Puedes probar también "collapsible"
+    "changeform_format": "horizontal_tabs",  
 
-    # Top menu
     "topmenu_links": [
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
         {"name": "Documentation", "url": "https://docs.djangoproject.com/en/4.2/", "new_window": True},
         {"name": "GitHub", "url": "https://github.com/farridav/django-jazzmin", "new_window": True},
     ],
 
-    # Icons
     "icons": {
         "auth": "fas fa-users-cog",
         "auth.user": "fas fa-user-shield",
         "auth.Group": "fas fa-user-tag",
-        "yourapp.ModelName": "fas fa-book-open",  # reemplaza "yourapp.ModelName"
+        "yourapp.ModelName": "fas fa-book-open",  
     },
 
-    # UI Tweaks (💡 Aquí está la magia del diseño oscuro)
     "ui_tweaks": {
-        "theme": "darkly",  # Otros: cerulean, cyborg, litera, minty, etc.
-        "dark_mode_theme": "cyborg",  # Aplica tema más oscuro aún
+        "theme": "superhero",  
+        "dark_mode_theme": "cyborg",  
         "navbar": "navbar-dark bg-dark bg-gradient",
         "body": "dark-mode",
         "brand_small_text": False,
@@ -173,7 +172,5 @@ JAZZMIN_SETTINGS = {
         "no_navbar_border": True,
     },
 
-    # Custom CSS (opcional, si quieres usar tu propio diseño)
-    # "custom_css": "css/custom_admin.css",
 }
 
