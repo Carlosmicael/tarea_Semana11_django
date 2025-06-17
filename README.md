@@ -6,3 +6,6 @@
 
 #captura_2
 ![alt text](image-1.png)
+
+#captura_3
+![alt text](image-2.png)

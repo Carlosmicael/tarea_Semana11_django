@@ -127,7 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 JAZZMIN_UI_TWEAKS = {
-    "theme": "darkly",
+    "theme": "slate",
 }
 
 JAZZMIN_SETTINGS = {
