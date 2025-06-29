@@ -1,5 +1,7 @@
 # tarea_Semana11_django
 
+Integrantes: Carlos Lopez ,Gabriela Riofrio
+
 
 #Captura_1
 ![alt text](image.png)
